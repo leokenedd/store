@@ -166,10 +166,12 @@ class MisterVPN {
         const btnCriarTeste = document.getElementById('btnCriarTeste');
         const btnDownload = document.getElementById('btnDownload');
         const btnSuporte = document.getElementById('btnSuporte');
+        const appScreenshot = document.getElementById('appScreenshot');
 
         if (btnCriarTeste) btnCriarTeste.href = this.config.links.criar_teste;
         if (btnDownload) btnDownload.href = this.config.links.download_app;
         if (btnSuporte) btnSuporte.href = this.config.links.suporte;
+        if (appScreenshot) appScreenshot.src = this.config.imagens.app_screenshot;
     }
 
     setupEventListeners() {
