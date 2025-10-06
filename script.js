@@ -198,13 +198,21 @@ class MisterVPN {
         const navMenu = document.querySelector('.nav-menu');
 
         if (navToggle && navMenu) {
-            navToggle.addEventListener('click', () => {
+            navToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
                 navMenu.classList.toggle('active');
                 navToggle.classList.toggle('active');
             });
 
             document.addEventListener('click', (e) => {
                 if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+                    navMenu.classList.remove('active');
+                    navToggle.classList.remove('active');
+                }
+            });
+
+            navMenu.addEventListener('click', (e) => {
+                if (e.target.classList.contains('nav-link')) {
                     navMenu.classList.remove('active');
                     navToggle.classList.remove('active');
                 }
