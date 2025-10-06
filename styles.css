@@ -766,7 +766,7 @@ body {
     height: 500px;
     background: var(--dark-card);
     border-radius: 30px;
-    padding: 20px;
+    padding: 6px;
     border: 2px solid var(--border-color);
     position: relative;
     box-shadow: var(--shadow-card);
