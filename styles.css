@@ -775,72 +775,16 @@ body {
 .phone-screen {
     width: 100%;
     height: 100%;
-    background: var(--dark-bg);
     border-radius: 20px;
     overflow: hidden;
     position: relative;
 }
 
-.app-interface {
-    padding: 20px;
+.app-screenshot {
+    width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.app-header {
-    margin-bottom: 30px;
-}
-
-.status-bar {
-    height: 20px;
-    background: var(--gradient-primary);
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.app-title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.2rem;
-    color: var(--text-primary);
-}
-
-.connection-status {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
-    padding: 15px;
-    background: var(--dark-card);
-    border-radius: 15px;
-}
-
-.status-indicator {
-    width: 12px;
-    height: 12px;
-    background: var(--success-color);
-    border-radius: 50%;
-    animation: pulse 2s ease-in-out infinite;
-}
-
-.server-list {
-    flex: 1;
-}
-
-.server-item {
-    padding: 15px;
-    background: var(--dark-card);
-    border-radius: 10px;
-    margin-bottom: 10px;
-    color: var(--text-secondary);
-    transition: all 0.3s ease;
-}
-
-.server-item.active {
-    background: var(--gradient-primary);
-    color: white;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .contact {
