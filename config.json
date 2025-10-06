@@ -1,0 +1,69 @@
+{
+  "empresa": {
+    "nome": "MISTERVPN",
+    "descricao": "VPN de alta qualidade para navegação segura e anônima"
+  },
+  "planos_usuarios": [
+    {
+      "id": "plano_1",
+      "logins": 1,
+      "preco": 15,
+      "descricao": "1 pessoa pode usar simultaneamente",
+      "detalhes": "Acesso completo por 30 dias"
+    },
+    {
+      "id": "plano_2", 
+      "logins": 2,
+      "preco": 20,
+      "descricao": "2 pessoas podem usar simultaneamente",
+      "detalhes": "Acesso completo por 30 dias"
+    },
+    {
+      "id": "plano_3",
+      "logins": 3,
+      "preco": 30,
+      "descricao": "3 pessoas podem usar simultaneamente", 
+      "detalhes": "Acesso completo por 30 dias"
+    }
+  ],
+  "planos_revenda": [
+    {
+      "id": "revenda_50",
+      "logins": 50,
+      "preco": 100,
+      "descricao": "50 usuários simultâneos"
+    },
+    {
+      "id": "revenda_100",
+      "logins": 100,
+      "preco": 150,
+      "descricao": "100 usuários simultâneos"
+    },
+    {
+      "id": "revenda_200",
+      "logins": 200,
+      "preco": 200,
+      "descricao": "200 usuários simultâneos"
+    }
+  ],
+  "links": {
+    "download_app": "https://play.google.com/store/apps/details?id=com.mistervpn.app",
+    "criar_teste": "https://t.me/mistervpn_bot?start=0",
+    "comprar": "https://t.me/mistervpn_bot?start=0",
+    "suporte": "https://t.me/mistervpn_suporte"
+  },
+  "textos": {
+    "titulo_principal": "Proteja sua navegação com MISTERVPN",
+    "subtitulo": "VPN rápida, segura e confiável para toda sua família",
+    "descricao_planos": "Escolha o plano ideal para suas necessidades",
+    "descricao_revenda": "Seja um revendedor e ganhe dinheiro conosco",
+    "descricao_download": "Baixe nosso aplicativo e comece a usar agora",
+    "beneficios": [
+      "Navegação 100% anônima",
+      "Proteção contra hackers",
+      "Acesso a conteúdo bloqueado",
+      "Velocidade ultra-rápida",
+      "Suporte 24/7"
+    ]
+  }
+}
