@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISTERVPN - VPN Segura e Rápida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-spinner"></div>
+        <p>Carregando...</p>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span id="empresaNome">MISTERVPN</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#planos" class="nav-link">Planos</a>
+                <a href="#revenda" class="nav-link">Revenda</a>
+                <a href="#download" class="nav-link">Download</a>
+                <a href="#contato" class="nav-link">Suporte</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title" id="tituloPrincipal">Proteja sua navegação com MISTERVPN</h1>
+                    <p class="hero-subtitle" id="subtitulo">VPN rápida, segura e confiável para toda sua família</p>
+                    <div class="hero-buttons">
+                        <a href="#planos" class="btn btn-primary">Ver Planos</a>
+                        <a href="#" class="btn btn-secondary" id="btnCriarTeste">Criar Teste</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="vpn-animation">
+                        <div class="device"></div>
+                        <div class="connection-lines">
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="shield"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="container">
+                <h2 class="section-title">Por que escolher MISTERVPN?</h2>
+                <div class="benefits-grid" id="beneficiosGrid">
+                </div>
+            </div>
+        </section>
+
+        <section class="plans" id="planos">
+            <div class="container">
+                <h2 class="section-title" id="descricaoPlanos">Escolha o plano ideal para suas necessidades</h2>
+                <div class="plans-grid" id="planosGrid">
+                </div>
+            </div>
+        </section>
+
+        <section class="reseller" id="revenda">
+            <div class="container">
+                <h2 class="section-title" id="descricaoRevenda">Seja um revendedor e ganhe dinheiro conosco</h2>
+                <p class="reseller-description">Com nossos planos de revenda, você recebe acesso a um painel de gerenciamento completo onde pode criar usuários mensais, testes e até sub-revendas.</p>
+                <div class="reseller-grid" id="revendaGrid">
+                </div>
+            </div>
+        </section>
+
+        <section class="download" id="download">
+            <div class="container">
+                <h2 class="section-title" id="descricaoDownload">Baixe nosso aplicativo e comece a usar agora</h2>
+                <div class="download-content">
+                    <div class="download-info">
+                        <div class="download-features">
+                            <div class="feature">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Disponível apenas para Android</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-download"></i>
+                                <span>Download rápido e seguro</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Proteção garantida</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-download" id="btnDownload">
+                            <i class="fab fa-android"></i>
+                            Baixar para Android
+                        </a>
+                    </div>
+                    <div class="download-visual">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <div class="app-interface">
+                                    <div class="app-header">
+                                        <div class="status-bar"></div>
+                                        <div class="app-title">MISTERVPN</div>
+                                    </div>
+                                    <div class="connection-status">
+                                        <div class="status-indicator"></div>
+                                        <span>Conectado</span>
+                                    </div>
+                                    <div class="server-list">
+                                        <div class="server-item active">Brasil</div>
+                                        <div class="server-item">Estados Unidos</div>
+                                        <div class="server-item">Europa</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contato">
+            <div class="container">
+                <h2 class="section-title">Precisa de ajuda?</h2>
+                <p class="contact-description">Nossa equipe de suporte está sempre pronta para ajudar você.</p>
+                <a href="#" class="btn btn-support" id="btnSuporte">
+                    <i class="fab fa-telegram"></i>
+                    Entrar em Contato
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span id="empresaNomeFooter">MISTERVPN</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#planos">Planos</a>
+                    <a href="#revenda">Revenda</a>
+                    <a href="#download">Download</a>
+                    <a href="#contato">Suporte</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MISTERVPN. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
