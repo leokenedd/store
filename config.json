@@ -52,6 +52,9 @@
     "comprar": "https://t.me/mistervpn_bot?start=0",
     "suporte": "https://t.me/mistervpn_suporte"
   },
+  "imagens": {
+    "app_screenshot": "https://i.postimg.cc/6qmbH3p5/mister.jpg"
+  },
   "textos": {
     "titulo_principal": "Proteja sua navegação com MISTERVPN",
     "subtitulo": "VPN rápida, segura e confiável para toda sua família",
